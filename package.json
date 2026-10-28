@@ -13,8 +13,12 @@
   "keywords": [],
   "author": "Marcos",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/MarcosMto12V/Projeto-marcos/issues"
   },
-  "homepage": "https://github.com/MarcosMto12V/Projeto-marcos#readme"
+  "homepage": "https://github.com/MarcosMto12V/Projeto-marcos#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
 }
