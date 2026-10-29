@@ -1,14 +1,12 @@
+
 import express from "express";
 import car from "./carro.js"
-
-
-const express = require('express');
 
 const app = express();
 const port = 3000;
 
-app.get('/', (req, res) => {
-    res.send('Servidor Express funcionando!');
+app.get("/", (req, res) => {
+    res.send("Servidor Express funcionando!");
 });
 
 app.listen(port, () => {
